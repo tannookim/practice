@@ -50,7 +50,7 @@ print('for 문 연습 결과 이상!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 #만약 커피 10을 타는데 한잔의 물에 믹스 2개씩을 넣고 믹스 넣을 때마다 3번 저어주어야 한다면?
 for coffee in range(1,11):
     print(f'{coffee}번째 물을 떠왔습니다.')
-    for mix in (1,3):
+    for mix in range(1,3):
         print(f'{mix}번 째 믹스를 넣었습니다.')
         for spoon in range(1,4):
             print(f'{spoon}번째 스푼을 저었습니다.')
