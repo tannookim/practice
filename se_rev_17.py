@@ -7,7 +7,3 @@ mem = {
 for set in mem.items():
     if set[1]>=90:
         print(f'90점 이상인 사람 : {set[0]}')
-
-num_set = set([1,2,3])
-print(num_set)
-
